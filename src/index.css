@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Covered+By+Your+Grace&family=Sedgwick+Ave+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 10px;
+}
+
+:root {
+  --primary-color: #657ee4;
+  --primary-color-light: rgba(176, 191, 255, 0.3);
+  --background-default: #e1e4ef;
+  --background-paper: #fff;
+  --background-paper-darker: #f2f2f2;
+  --background-dark: #1c223d;
+  --input-background: #fff;
+  --input-color: #323232;
+  --input-border-color: #575d6b;
+  --input-border-color-hover: #696f7d;
+  --border-color: #ced4da;
+  --text-color: #323232;
+  --button-color: #fff;
+}
+
+.App.dark {
+  --primary-color: #b0bfff;
+
+  --background-default: #262a33;
+  --background-paper: #2e323c;
+  --background-paper-darker: #262a33;
+  --background-dark: #1a1d24;
+  --input-background: #1a1d24;
+  --input-color: #fff;
+  --border-color: #575d6b;
+  --text-color: #fff;
+}
