@@ -4,6 +4,7 @@ Simple React + TS + Vite app
 
 ### Built with
 
+
 - React js
 - Typescript
 - Styled components
@@ -14,6 +15,11 @@ Simple React + TS + Vite app
 
 - multitheme using css variables (changing theme is faster than using theme object)
 - fetch data from https://api.urbandictionary.com
+
+
+### Live site 
+
+- [https://urbn-dictionary.netlify.app/](https://urbn-dictionary.netlify.app/)
 
 ### Screenshot
 
